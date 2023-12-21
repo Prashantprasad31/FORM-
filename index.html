@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tulsi Studio</title>
+    <link rel="stylesheet" href="Google sheet.css">
+
+</head>
+
+<body>
+    <div id="contact" class="contact">
+        <div id="search">
+            NAME:<input type="search" name="" id="" placeholder="SEARCH XYZ" style="width: 250px; height: 25px;">
+            <a href="https://docs.google.com/spreadsheets/d/1enrNGY2vYturkg3GVgYIThi_nn5hjbweYf8ZbihIbYQ/edit#gid=0"><button type="submit" style="background-color: rgb(15, 9, 91); border-radius: 10px; width: 80px; height: 30px; color: white; cursor: pointer;">SEARCH</button></a>
+        </div>
+        <div id="formbox">
+            <div class="box">
+                <table border="1" cellspacing="1" cellpadding="5">
+                    <form
+                        action="https://script.google.com/macros/s/AKfycbzlxtdmrGmzj28sKuoGLOiyYSOOe4so-qus0K6CQGaZl7Ru-14jBf1_3Yik8GWM3XfC/exec"
+                        method="post" name="">
+                        <tr>
+                            <th colspan="2">
+                                <h2>CUSTOMER DATA</h2>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>DATE:</td>
+                            <td><input type="date" id="email" name="DATE" required></td>
+                        </tr>
+                        <tr>
+                            <td>VISIT:</td>
+                            <td><input type="number" id="phone" name="VISIT" placeholder="No of Visits" required></td>
+                        </tr>
+                        <tr>
+                            <td>LEAD THROUGH:</td>
+                            <td><select name="LEAD THROUGH" id="usercourse">
+                                    <option value="Insta">INSTA</option>
+                                    <option value="fb">FB</option>
+                                    <option value="reference">REFERENCE</option>
+                                    <option value="other">OTHERS</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>ATTENDED BY:</td>
+                            <td><input type="text" name="ATTENDED BY"></td>
+                        </tr>
+                        <tr>
+                            <td>NAME:</td>
+                            <td><input type="text" name="NAME" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>NUMBER:</td>
+                            <td><input type="number" name="NUMBER" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>LOCATION:</td>
+                            <td><input type="text" name="LOCATION" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>REQUIREMENT:</td>
+                            <td><select name="REQUIREMENT" id="">
+                                    <option value="sherwani">SHERWANI</option>
+                                    <option value="kurta">KURTA</option>
+                                    <option value="shirt">SHIRT</option>
+                                </select>
+                            </td><br><br>
+                        </tr>
+                        <tr>
+                            <td>PRICE RANGE:</td>
+                            <td><input type="number" name="PRICE RANGE" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>EVENT DATE:</td>
+                            <td><input type="date" name="EVENT DATE" id=""></td>
+                        </tr>
+                        <tr>
+                            <td>REMARK:</td>
+                            <td><textarea id="message" rows="3" placeholder="TESTING" name="REMARK"></textarea></td>
+                        </tr>
+                        <tr style="text-align: center;"><br>
+                            <td><button type="submit" style="background-color: yellow; border-radius: 10px; width: 80px; height: 30px; cursor: pointer;">Save</button></td>
+                            <td><input type="reset" name="" id="" style="background-color: yellow; border-radius: 10px; width: 80px; height: 30px; cursor: pointer;"></td>
+                        </tr>
+                    </form>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="Google sheet.js"></script>
+</body>
+
+</html>

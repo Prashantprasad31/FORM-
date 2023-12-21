@@ -1,0 +1,45 @@
+#contact{
+    border: 1px solid blue;
+    background-color: #fff;
+
+
+}
+form button{
+    padding: 10px;
+    background: #ff5;
+    color: #001660;
+    font-size: 15px;
+    border: 0;
+    outline: none;
+    cursor: pointer;
+    width: 120px;
+    border-radius: 20px;
+
+}
+
+#search{
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    color: black;
+    font-weight: 800;
+    margin-bottom: 1px;
+    border-width: 2px;
+    text-align: center;
+    background-color: rgb(244, 228, 80);
+}
+#formbox{
+    border: 1px solid black;
+    background: url(bg.png);
+    color: black;
+    font-weight: 800;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.box{
+    background-color: #e9fbff;
+    padding-top: 0px ;
+    border-radius: 20px;
+}
